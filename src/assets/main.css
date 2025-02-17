@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+.btn {
+  @apply px-4 py-1 outline-none rounded-md w-fit;
+}
+
+input {
+  @apply bg-amber-50 px-4 py-1 outline-none shadow-inner shadow-black;
+}
+
+.form {
+  @apply border-4 border-amber-500 flex flex-col h-[30vh] w-60 gap-3 items-center;
+}
